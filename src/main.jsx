@@ -25,7 +25,7 @@ import Home from './Pages/HomePage/Home/Home.jsx';
 <RouterProvider router={router} />
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='container max-w-full'>
+    <div className='container max-w-full '>
       <RouterProvider router={router} />
    </div>
   </React.StrictMode>,
