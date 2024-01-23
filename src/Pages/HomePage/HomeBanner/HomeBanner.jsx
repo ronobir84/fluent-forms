@@ -64,57 +64,107 @@ const HomeBanner = () => {
                                 <h2 className="text-2xl font-bold w-4 text-white">200+  </h2>
                                 <p className="text-xl font-medium text-white">Forms Demos</p>
                             </div>
-                        </div>
-                        <div className="w-56 h-56 bl-min bg-[#2FF3FF] absolute left-0 ml-10  rounded-full">
+                            <div className="w-56 h-56 bl-min bg-[#2FF3FF] absolute left-0 ml-10 mb-10 rounded-full">
 
-                        </div>
-                        <div className="w-56 h-56 bl-min bg-[#2FF3FF] absolute right-0 mr-10  rounded-full">
+                            </div>
+                            <div className="w-56 h-56 bl-min bg-[#2FF3FF] absolute right-0 mb-10 mr-10  rounded-full">
 
+                            </div>
                         </div>
+                        
+                        
                     </div>
 
-                    <div className="w-[86%] h-[600px] bg-white mx-auto  relative z-20 rounded">
+                    <div className="w-[86%] h-[650px] bg-white mx-auto   rounded">
                         <div>
                             <div className="w-full h-24 border-b-2 border-gray-300 flex items-center justify-between px-6">
                                 <div className="flex gap-3">
                                     <FaPencil className="text-3xl  text-[#626261]"></FaPencil>
-                                    <p className="text-xl  text-black">Contact Form...</p>
+                                    <p className="text-lg  text-black">Contact Form...</p>
                                 </div>
                                 <div className="pr-16 ">
-                                    <ul className="flex gap-4">
-                                        <li><Link className="text-xl text-black font-medium">Editor</Link></li>
-                                        <li><Link className="text-xl text-black font-medium">Design</Link></li>
-                                        <li><Link className="text-xl text-black font-medium">Settings & Integration</Link> </li>
-                                        <li> <Link className="text-xl text-black font-medium">Entries</Link></li>
+                                    <ul className="flex gap-6">
+                                        <li><Link className="text-lg text-black font-medium">Editor</Link></li>
+                                        <li><Link className="text-lg text-black font-medium">Design</Link></li>
+                                        <li><Link className="text-lg text-black font-medium">Settings & Integration</Link> </li>
+                                        <li> <Link className="text-lg text-black font-medium">Entries</Link></li>
                                     </ul>
                                 </div>
-                                <div className="flex gap-3">
+                                <div className="flex gap-2">
                                     <div>
                                         <button className="flex gap-3 bg-[#F2F2F2] px-6 text-[#5E5D5C] rounded py-3">
-                                             <IoDocumentTextSharp className="text-2xl"></IoDocumentTextSharp>
+                                            <IoDocumentTextSharp className="text-2xl"></IoDocumentTextSharp>
                                             <span className="text-xl">[fluentform id=”9”]</span>
                                         </button>
                                     </div>
 
                                     <div>
                                         <button className="flex gap-3 bg-[#F2F2F2] px-6 text-[#5E5D5C] rounded py-3">
-                                             <IoEyeSharp className="text-2xl"></IoEyeSharp>
-                                            <span className="text-xl">Preview</span>
+                                            <IoEyeSharp className="text-2xl"></IoEyeSharp>
+                                            <span className="text-lg">Preview</span>
                                         </button>
                                     </div>
                                     <div>
                                         <button className="flex gap-3 bg-[#8EC0FF] px-6 text-white rounded py-3">
-                                             <FaCheckCircle className="text-2xl"></FaCheckCircle>
-                                            <span className="text-xl">Save Form</span>
+                                            <FaCheckCircle className="text-2xl"></FaCheckCircle>
+                                            <span className="text-lg">Save Form</span>
                                         </button>
                                     </div>
-                                    <div className="flex items-center">
-                                        <IoScan className="text-4xl text-[#626261] "></IoScan>
-                                        <CiMenuKebab className="text-4xl text-[#626261]"></CiMenuKebab>
+                                    <div className="flex items-center gap-2">
+                                        <IoScan className="text-3xl text-[#626261] "></IoScan>
+                                        <CiMenuKebab className="text-3xl text-[#626261]"></CiMenuKebab>
                                     </div>
                                 </div>
 
                             </div>
+
+                            {/* from section */}
+                            <div>
+                                <div className=" w-[60%] pt-10 px-10" >
+                                    <div className="flex gap-4">
+                                        <div className="">
+                                            <span className=" relative right-[38%] text-lg  text-[#1E1F21] font-semibold">First Name</span>
+                                            <div className="pt-2">
+                                                <input className="w-[385px] h-14 p-4 bg-white border-solid  border-2 border-gray-300 text-lg" type="text" placeholder="First " />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <label className="">
+                                                <span className=" relative right-[38%] text-lg  text-[#1E1F21] font-semibold">First Name</span>
+                                            </label>
+                                            <div className="pt-2">
+                                                <input className="w-[385px] h-14 p-4 bg-white border-solid  border-2 border-gray-300" type="text" placeholder="First " />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="">
+                                        <div className="pt-10">
+                                            <span className=" relative right-[47%] text-lg  text-[#1E1F21] font-semibold">Email</span>
+                                            <div className="pt-2">
+                                                <input className="w-full h-14 p-4 bg-white border-solid  border-2 border-gray-300 text-lg" type="text" placeholder="example@mail.com " />
+                                            </div>
+                                        </div>
+                                        <div className="pt-10">
+                                            <span className=" relative right-[40%] text-lg  text-[#1E1F21] font-semibold">* Subscription Item</span>
+                                            <div className="pt-2">
+                                                <input className="w-full h-14 p-4 bg-white border-solid  border-2 border-gray-300 text-lg" type="text" placeholder="Subscription Item " />
+                                            </div>
+                                        </div>
+                                        <div className="pt-4">
+                                            <span className=" relative right-[38%] text-lg  text-[#1E1F21] font-semibold">$120.00 for each month</span>
+                                        </div>
+                                        <div className="pt-6">
+                                            <button className=" relative right-[37%]  w-1/4 h-14 rounded bg-[#00295A] text-white font-semibold text-xl ">Submit Form</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* second from section */}
+                                <div>
+
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
 
