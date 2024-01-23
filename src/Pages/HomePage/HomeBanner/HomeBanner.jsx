@@ -119,48 +119,50 @@ const HomeBanner = () => {
                             </div>
 
                             {/* from section */}
-                            <div>
-                                <div className=" w-[60%] pt-10 px-10" >
-                                    <div className="flex gap-4">
-                                        <div className="">
-                                            <span className=" relative right-[38%] text-lg  text-[#1E1F21] font-semibold">First Name</span>
-                                            <div className="pt-2">
-                                                <input className="w-[385px] h-14 p-4 bg-white border-solid  border-2 border-gray-300 text-lg" type="text" placeholder="First " />
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <label className="">
+                            <div className="flex">
+                                
+                                    <div className=" w-[60%] pt-10 px-10 border-r-2 border-gray-600" >
+                                        <div className="flex gap-4">
+                                            <div className="">
                                                 <span className=" relative right-[38%] text-lg  text-[#1E1F21] font-semibold">First Name</span>
-                                            </label>
-                                            <div className="pt-2">
-                                                <input className="w-[385px] h-14 p-4 bg-white border-solid  border-2 border-gray-300" type="text" placeholder="First " />
+                                                <div className="pt-2">
+                                                    <input className="w-[385px] h-14 p-4 bg-white border-solid  border-2 border-gray-300 text-lg" type="text" placeholder="First " />
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <label className="">
+                                                    <span className=" relative right-[38%] text-lg  text-[#1E1F21] font-semibold">First Name</span>
+                                                </label>
+                                                <div className="pt-2">
+                                                    <input className="w-[385px] h-14 p-4 bg-white border-solid  border-2 border-gray-300" type="text" placeholder="First " />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="">
+                                            <div className="pt-10">
+                                                <span className=" relative right-[47%] text-lg  text-[#1E1F21] font-semibold">Email</span>
+                                                <div className="pt-2">
+                                                    <input className="w-full h-14 p-4 bg-white border-solid  border-2 border-gray-300 text-lg" type="text" placeholder="example@mail.com " />
+                                                </div>
+                                            </div>
+                                            <div className="pt-10">
+                                                <span className=" relative right-[40%] text-lg  text-[#1E1F21] font-semibold">* Subscription Item</span>
+                                                <div className="pt-2">
+                                                    <input className="w-full h-14 p-4 bg-white border-solid  border-2 border-gray-300 text-lg" type="text" placeholder="Subscription Item " />
+                                                </div>
+                                            </div>
+                                            <div className="pt-4">
+                                                <span className=" relative right-[38%] text-lg  text-[#1E1F21] font-semibold">$120.00 for each month</span>
+                                            </div>
+                                            <div className="pt-6">
+                                                <button className=" relative right-[37%]  w-1/4 h-14 rounded bg-[#00295A] text-white font-semibold text-xl ">Submit Form</button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="">
-                                        <div className="pt-10">
-                                            <span className=" relative right-[47%] text-lg  text-[#1E1F21] font-semibold">Email</span>
-                                            <div className="pt-2">
-                                                <input className="w-full h-14 p-4 bg-white border-solid  border-2 border-gray-300 text-lg" type="text" placeholder="example@mail.com " />
-                                            </div>
-                                        </div>
-                                        <div className="pt-10">
-                                            <span className=" relative right-[40%] text-lg  text-[#1E1F21] font-semibold">* Subscription Item</span>
-                                            <div className="pt-2">
-                                                <input className="w-full h-14 p-4 bg-white border-solid  border-2 border-gray-300 text-lg" type="text" placeholder="Subscription Item " />
-                                            </div>
-                                        </div>
-                                        <div className="pt-4">
-                                            <span className=" relative right-[38%] text-lg  text-[#1E1F21] font-semibold">$120.00 for each month</span>
-                                        </div>
-                                        <div className="pt-6">
-                                            <button className=" relative right-[37%]  w-1/4 h-14 rounded bg-[#00295A] text-white font-semibold text-xl ">Submit Form</button>
-                                        </div>
-                                    </div>
-                                </div>
+                               
                                 {/* second from section */}
-                                <div>
-
+                                <div className="">
+                                     <input type="text" />
                                 </div>
                             </div>
 
