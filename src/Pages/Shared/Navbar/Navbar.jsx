@@ -21,14 +21,14 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='pt-[70px]'>
-                    <div className='bg-[#012A5B] h-[90px] w-full fixed border-solid border-2 border-[#115382] flex justify-between items-center px-10'>
+                    <div className='bg-[#012A5B] h-[90px] w-full fixed border-solid border-2 border-[#115382] flex justify-between items-center px-10 shadow-md'>
                         <div className='flex items-center' >
                             <img className='w-12' src={logo} alt="" />
                             <h2><span className='text-2xl text-white font-semibold '>Fluent</span><span className='text-2xl text-gray-400'>Forms</span></h2>
 
 
                              
-                            <div className='flex  items-center relative left-[35%]'>
+                            <div className='flex  items-center relative left-[25%]'>
                                 <div className="dropdown ">
                                     <div tabIndex={0} role="button" className="pl-6 m-1 flex items-center gap-2 "><span className='text-xl font-medium text-white    '>Features</span><FaAngleDown className='text-xl font-medium text-white  '></FaAngleDown></div>
                                     <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-white  rounded-box w-36 ">
