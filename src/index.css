@@ -11,3 +11,7 @@ body {
 .min-bg{
     background-color: rgba(255, 255, 255, 0.10);
 }
+.bl-min{
+    filter: blur(60px); 
+    opacity: 0.3; 
+}
