@@ -7,6 +7,7 @@ import { FaCheckCircle } from "react-icons/fa";
 import { FaPencil } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import { PiAirplaneDuotone } from "react-icons/pi";
 const HomeBanner = () => {
     return (
         <div className="bg-[#00295A]   w-full min-h-screen py-20">
@@ -169,14 +170,51 @@ const HomeBanner = () => {
                                             <a role="tab" className="text-xl font-medium text-[#626261] cursor-pointer">Input Customization</a>
                                             
                                         </div>
-                                        <div className="bg-[#F2F2F2] ">
+                                        <div className="bg-[#F2F2F2] py-5">
                                             <div className="px-6">
                                                 <div className="pt-8">
                                                     <input type="search" name="" id="" placeholder="Search name, address, mask input etc," className="bg-white w-full h-16 border-2 px-14 text-xl rounded-md" />
                                                     <IoSearch className="text-4xl relative bottom-12 left-4"></IoSearch>
                                                 </div>
-                                                <div>
+                                                <div className="space-y-3">
+                                                    <div className="collapse collapse-arrow bg-white">
+                                                        <input type="radio" name="my-accordion-2" checked="checked" />
+                                                        <div className="collapse-title text-2xl text-black font-medium text-left">
+                                                            Advanced Fields
+                                                        </div>
+                                                         
+                                                    </div>
+                                                    <div className="collapse collapse-arrow bg-white">
+                                                        <input type="radio" name="my-accordion-2" />
+                                                        <div className="collapse-title text-2xl text-black font-medium text-left">
+                                                            General Fields
+                                                        </div>
+                                                        <div className="collapse-content">
+                                                            <p className="text-xl text-black">hello</p>
+                                                        </div>
+                                                    </div>
+                                                    <div className="collapse collapse-arrow   bg-white">
+                                                        <input type="radio" name="my-accordion-2" />
+                                                        <div className="collapse-title text-2xl text-black font-medium text-left">
+                                                            Container
+                                                        </div>
+                                                        <div className="collapse-content">
+                                                            <p>hello</p>
+                                                        </div>
+                                                    </div>
 
+                                                    <div className="gap-4 flex">
+                                                        <button className="px-10 py-3 bg-[#fff] rounded shadow-md">
+                                                            <IoDocumentTextSharp className="text-4xl mx-auto pb-2 text-gray-500 "></IoDocumentTextSharp>
+                                                            <span className="text-black text-xl font-medium">Payment Field</span>
+                                                        </button>
+                                                        <button className="px-10 py-3  shadow-md bg-[#1E1F21] rounded">
+                                                            <PiAirplaneDuotone className="text-4xl mx-auto pb-2 text-[#fff] "></PiAirplaneDuotone>
+                                                            <span className="text-[#fff] text-xl font-medium">Subscription Field</span>
+                                                        </button>
+                                                    </div>
+                                                    
+                                                     
                                                 </div>
                                             </div>
                                         </div>
