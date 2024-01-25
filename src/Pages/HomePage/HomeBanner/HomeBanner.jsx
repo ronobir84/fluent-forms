@@ -5,10 +5,11 @@ import { IoDocumentTextSharp, IoEyeSharp, IoScan } from "react-icons/io5";
 import { CiMenuKebab } from "react-icons/ci";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaPencil } from "react-icons/fa6";
+import { IoSearch } from "react-icons/io5";
 import { Link } from "react-router-dom";
 const HomeBanner = () => {
     return (
-        <div className="bg-[#00295A]   w-full min-h-screen">
+        <div className="bg-[#00295A]   w-full min-h-screen py-20">
             <div className="pt-[9%] ">
                 <div className=" text-center space-y-8 ">
                     <div className="">
@@ -124,14 +125,14 @@ const HomeBanner = () => {
                                     <div className=" w-[60%] pt-10 px-10 border-r-2 border-gray-600" >
                                         <div className="flex gap-4">
                                             <div className="">
-                                                <span className=" relative right-[38%] text-lg  text-[#1E1F21] font-semibold">First Name</span>
+                                                <span className=" pr-[74%] text-lg  text-[#1E1F21] font-semibold">First Name</span>
                                                 <div className="pt-2">
                                                     <input className="w-[385px] h-14 p-4 bg-white border-solid  border-2 border-gray-300 text-lg" type="text" placeholder="First " />
                                                 </div>
                                             </div>
                                             <div>
                                                 <label className="">
-                                                    <span className=" relative right-[38%] text-lg  text-[#1E1F21] font-semibold">First Name</span>
+                                                <span className=" pr-[74%] text-lg  text-[#1E1F21] font-semibold">Last Name</span>
                                                 </label>
                                                 <div className="pt-2">
                                                     <input className="w-[385px] h-14 p-4 bg-white border-solid  border-2 border-gray-300" type="text" placeholder="First " />
@@ -140,19 +141,19 @@ const HomeBanner = () => {
                                         </div>
                                         <div className="">
                                             <div className="pt-10">
-                                                <span className=" relative right-[47%] text-lg  text-[#1E1F21] font-semibold">Email</span>
+                                                <span className=" pr-[93%] text-lg  text-[#1E1F21] font-semibold">Email</span>
                                                 <div className="pt-2">
                                                     <input className="w-full h-14 p-4 bg-white border-solid  border-2 border-gray-300 text-lg" type="text" placeholder="example@mail.com " />
                                                 </div>
                                             </div>
                                             <div className="pt-10">
-                                                <span className=" relative right-[40%] text-lg  text-[#1E1F21] font-semibold">* Subscription Item</span>
+                                                <span className=" pr-[79%] text-lg  text-[#1E1F21] font-semibold">* Subscription Item</span>
                                                 <div className="pt-2">
                                                     <input className="w-full h-14 p-4 bg-white border-solid  border-2 border-gray-300 text-lg" type="text" placeholder="Subscription Item " />
                                                 </div>
                                             </div>
                                             <div className="pt-4">
-                                                <span className=" relative right-[38%] text-lg  text-[#1E1F21] font-semibold">$120.00 for each month</span>
+                                                <span className="  pr-[74%] text-lg  text-[#1E1F21] font-semibold">$120.00 for each month</span>
                                             </div>
                                             <div className="pt-6">
                                                 <button className=" relative right-[37%]  w-1/4 h-14 rounded bg-[#00295A] text-white font-semibold text-xl ">Submit Form</button>
@@ -161,8 +162,26 @@ const HomeBanner = () => {
                                     </div>
                                
                                 {/* second from section */}
-                                <div className="">
-                                     <input type="text" />
+                                <div className="w-full">
+                                    <div className="">
+                                        <div role="tablist" className="tabs flex  gap-10 p-4 px-6">
+                                            <a role="tab" className=" border-b-4 border-solid border-[#1A7EFB]  text-xl font-medium text-[#1A7EFB] cursor-pointer">Input Fields</a>
+                                            <a role="tab" className="text-xl font-medium text-[#626261] cursor-pointer">Input Customization</a>
+                                            
+                                        </div>
+                                        <div className="bg-[#F2F2F2] ">
+                                            <div className="px-6">
+                                                <div className="pt-8">
+                                                    <input type="search" name="" id="" placeholder="Search name, address, mask input etc," className="bg-white w-full h-16 border-2 px-14 text-xl rounded-md" />
+                                                    <IoSearch className="text-4xl relative bottom-12 left-4"></IoSearch>
+                                                </div>
+                                                <div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
                                 </div>
                             </div>
 
