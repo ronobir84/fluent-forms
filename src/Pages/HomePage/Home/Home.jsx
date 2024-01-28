@@ -1,4 +1,5 @@
 import HomeBanner from "../HomeBanner/HomeBanner";
+import Powerful from "../Powerful/Powerful";
 
  
 
@@ -7,7 +8,10 @@ const Home = () => {
         <div>
             <div>
                 <HomeBanner></HomeBanner>
-             </div>
+            </div>
+            <div>
+                <Powerful></Powerful>
+            </div>
         </div>
     );
 };
