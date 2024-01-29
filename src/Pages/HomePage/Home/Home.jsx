@@ -1,3 +1,4 @@
+import BuildForms from "../BuildForms/BuildForms";
 import HomeBanner from "../HomeBanner/HomeBanner";
 import Powerful from "../Powerful/Powerful";
 
@@ -11,6 +12,9 @@ const Home = () => {
             </div>
             <div>
                 <Powerful></Powerful>
+            </div>
+            <div>
+                <BuildForms></BuildForms>
             </div>
         </div>
     );
