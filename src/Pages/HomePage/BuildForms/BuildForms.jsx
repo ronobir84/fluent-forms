@@ -15,7 +15,23 @@ const BuildForms = () => {
                             <img src={side1} alt="" />
 
                         </div>
-                        
+                        <div className="">
+                            <div className="bg-[#E3E3E3] w-72 h-56 rounded-md ">
+                            </div>
+                            <div className="bg-[#F0F0F0] w-72 h-56 relative bottom-60 left-4 rounded-md shadow-md">
+                                <div className="bg-black h-10 rounded-t-md">
+                                    <div className="flex space-x-3 p-3 px-4">
+                                        <button className="w-4 h-4 bg-[#00A072] rounded-full"></button>
+                                        <button className="w-4 h-4 bg-[#FF6154] rounded-full"></button>
+                                        <button className="w-4 h-4 bg-[#FCBE2D] rounded-full"></button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
 
                     </div>
 
