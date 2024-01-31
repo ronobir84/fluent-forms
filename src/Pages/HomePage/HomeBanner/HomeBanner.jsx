@@ -128,7 +128,7 @@ const HomeBanner = () => {
                                             <div className="">
                                                 <span className=" pr-[74%] text-lg  text-[#1E1F21] font-semibold">First Name</span>
                                                 <div className="pt-2">
-                                                    <input className="w-[385px] h-14 p-4 bg-white border-solid  border-2 border-gray-300 text-lg" type="text" placeholder="First " />
+                                                <input className="w-[385px] h-14 p-4 bg-white border-solid  border-2 border-gray-300 text-lg" type="text" placeholder="Jhon " />
                                                 </div>
                                             </div>
                                             <div>
@@ -136,7 +136,7 @@ const HomeBanner = () => {
                                                 <span className=" pr-[74%] text-lg  text-[#1E1F21] font-semibold">Last Name</span>
                                                 </label>
                                                 <div className="pt-2">
-                                                    <input className="w-[385px] h-14 p-4 bg-white border-solid  border-2 border-gray-300" type="text" placeholder="First " />
+                                                <input className="w-[385px] h-14 p-4 bg-white border-solid  border-2 border-gray-300" type="text" placeholder="Doe " />
                                                 </div>
                                             </div>
                                         </div>
