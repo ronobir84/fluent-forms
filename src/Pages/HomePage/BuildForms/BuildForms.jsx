@@ -2,10 +2,10 @@ import side1 from "../../../assets/image/Ellipse 166.png"
 import { FcGallery } from "react-icons/fc";
 const BuildForms = () => {
     return (
-        <div className="mt-10">
-            <div>
+        <div className="mt-10 px-[100px]">
+            <div className="flex gap-7">
                 {/* first section */}
-                <div className="bg-[#F4FBFF] w-[750px] h-[600px]">
+                <div className="bg-[#F4FBFF] w-[750px] h-[588px] rounded-md">
                     <div className="px-14 pt-12 space-y-4 w-[70%]">
                         <h2 className="text-4xl font-bold text-black">Build forms. Faster 
                             by One Click</h2>
@@ -80,7 +80,9 @@ const BuildForms = () => {
 
                 </div>
                 {/* second section */}
-                <div></div>
+                <div className="w-[750px] h-[588px] bg-[#00295A] rounded-md">
+
+                </div>
             </div>
         </div>
     );
