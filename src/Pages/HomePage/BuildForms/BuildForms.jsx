@@ -6,10 +6,10 @@ import { FaAngleUp } from "react-icons/fa";
 import { FaUpDown } from "react-icons/fa6";
 const BuildForms = () => {
     return (
-        <div className="mt-10 px-[100px]">
+        <div className="mt-10 px-[100px] py-14">
             <div className="flex gap-7">
                 {/* first section */}
-                <div className="bg-[#F4FBFF] w-[750px] h-[588px] rounded-md">
+                <div className="bg-[#F4FBFF] w-[750px] h-[587px] rounded-md">
                     <div className="px-14 pt-12 space-y-4 w-[70%]">
                         <h2 className="text-4xl font-bold text-black">Build forms. Faster
                             by One Click</h2>
@@ -84,7 +84,7 @@ const BuildForms = () => {
 
                 </div>
                 {/* second section */}
-                <div className="w-[750px] h-[588px] bg-[#00295A] rounded-md">
+                <div className="w-[750px] h-[588px] bg-[#00295A] ">
                     <div>
                         <div className="px-10 pt-14">
                             <h2 className="text-3xl text-white font-semibold">Conversational Forms</h2>
@@ -94,8 +94,8 @@ const BuildForms = () => {
                         <div className="w-60 h-60 border-solid border-[18px] border-[#06CDFF] rounded-full opacity-30 absolute right-0 mr-32 mt-8">
 
                         </div>
-                        <div>
-                            <div>
+                        <div className="relative top-[96px] ">
+                            <div className="flex">
                                 <div className="">
                                     <img className="w-80 h-80" src={sideImg} alt="" />
                                     <div className="flex relative bottom-20 left-5 ">
@@ -110,6 +110,12 @@ const BuildForms = () => {
                                                 <FaAngleUp className="text-2xl text-white"></FaAngleUp>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+
+                                <div className="w-80 h-80 bg-white">
+                                    <div>
+
                                     </div>
                                 </div>
                             </div>
