@@ -1,5 +1,6 @@
 import side1 from "../../../assets/image/Ellipse 166.png"
 import { FcGallery } from "react-icons/fc";
+
 const BuildForms = () => {
     return (
         <div className="mt-10 px-[100px]">
@@ -16,7 +17,7 @@ const BuildForms = () => {
                             <img src={side1} alt="" />
                         </div>
                         <div className="flex">
-                            <div className="w-[360px] h-80 border-solid border-t-[10px] border-r-[10px] rounded-t-2xl border-[#ECECEC] py-6 px-3">
+                            <div className="w-[360px] h-80 border-solid border-t-[14px] border-r-[14px] rounded-t-2xl border-[#ECECEC] py-6 ">
                                 <div className=" w-72 h-52 bg-[#E3E3E3] mt-4 ml-2 rounded-md">
                                 </div>
                                 <div className="w-72 h-52 bg-[#F0F0F0]  relative bottom-[86%] left-6 border-black shadow-lg rounded-md ">
@@ -46,7 +47,7 @@ const BuildForms = () => {
                             </div>
 
 
-                            <div className=" w-[352px]  h-64 mt-20 border-solid border-t-[10px] border-[#ECECEC]">
+                            <div className=" w-[352px]  h-64 mt-20 border-solid border-t-[14px] border-[#ECECEC]">
                                 <div className="px-3 pt-2">
                                     <div className="flex gap-2">
                                         <div>
@@ -62,7 +63,7 @@ const BuildForms = () => {
                                         <span className="text-base text-[#6F767E]">Email</span>
                                         <input className="w-full bg-[#EFEFEF] h-10 border rounded mt-1" type="email" />
                                     </div>
-                                    <div className="mt-6">
+                                    <div className="mt-4">
                                         <button className="text-lg font-semibold text-[#6F767E]">Your Message</button>
                                     </div>
                                 </div>
@@ -81,6 +82,23 @@ const BuildForms = () => {
                 </div>
                 {/* second section */}
                 <div className="w-[750px] h-[588px] bg-[#00295A] rounded-md">
+                    <div>
+                        <div className="px-10 pt-14">
+                            <h2 className="text-3xl text-white font-semibold">Conversational Forms</h2>
+                            <p className="text-xl text-gray-400 font-medium pt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet. Lorem ipsum dolor sit</p>
+                        </div>
+
+                        <div className="w-60 h-60 border-solid border-[18px] border-[#06CDFF] rounded-full opacity-30 absolute right-0 mr-32 mt-8">
+
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <img src="" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
