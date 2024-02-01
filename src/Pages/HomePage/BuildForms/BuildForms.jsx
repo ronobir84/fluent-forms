@@ -3,7 +3,9 @@ import { FcGallery } from "react-icons/fc";
 import sideImg from "../../../assets/image/build-sid.png"
 import { FaAngleDown } from "react-icons/fa";
 import { FaAngleUp } from "react-icons/fa";
-import { FaUpDown } from "react-icons/fa6";
+import { ImHeadphones } from "react-icons/im";
+import { GrGallery } from "react-icons/gr";
+import { IoShirtOutline } from "react-icons/io5";
 const BuildForms = () => {
     return (
         <div className="mt-10 px-[100px] py-14">
@@ -113,9 +115,44 @@ const BuildForms = () => {
                                     </div>
                                 </div>
 
-                                <div className="w-80 h-80 bg-white">
-                                    <div>
+                                <div className="w-[350px] h-80 bg-white">
+                                    <div className="px-8">
+                                        <div className="pt-7">
+                                            <h2 className="text-2xl font-semibold text-[#00295A]">Choose your Product?</h2>
+                                        </div>
+                                        <div className="flex gap-3 pt-7">
+                                            <div className="w-24 h-36 bg-[#00295A]">
+                                                <div className="pt-4">
+                                                    <IoShirtOutline className="text-5xl text-white mx-auto "></IoShirtOutline>
+                                                </div>
+                                                <div className="relative top-6 left-2">
+                                                    <button className="w-9 h-9 bg-white border-solid border-2 border-[#09B5FF] rounded-full text-[#00295A] font-bold text-xl ">A</button>
+                                                </div>
 
+                                            </div>
+                                            <div className="w-24 h-36 bg-[#00295A]">
+                                                <div className="pt-4">
+                                                    <ImHeadphones className="text-5xl text-white mx-auto "></ImHeadphones>
+                                                </div>
+                                                <div className="relative top-6 left-2">
+                                                    <button className="w-9 h-9 bg-white border-solid border-2 border-[#09B5FF] rounded-full text-[#00295A] font-bold text-xl ">B</button>
+                                                </div>
+
+                                            </div>
+                                            <div className="w-24 h-36 bg-[#00295A]">
+                                                <div className="pt-4">
+                                                    <GrGallery className="text-5xl text-white mx-auto "></GrGallery>
+                                                </div>
+                                                <div className="relative top-6 left-2">
+                                                    <button className="w-9 h-9 bg-white border-solid border-2 border-[#09B5FF] rounded-full text-[#00295A] font-bold text-xl ">C</button>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
                                     </div>
                                 </div>
                             </div>
