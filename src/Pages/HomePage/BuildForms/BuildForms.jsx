@@ -6,6 +6,7 @@ import { FaAngleUp } from "react-icons/fa";
 import { ImHeadphones } from "react-icons/im";
 import { GrGallery } from "react-icons/gr";
 import { IoShirtOutline } from "react-icons/io5";
+import { FiCornerDownLeft } from "react-icons/fi";
 const BuildForms = () => {
     return (
         <div className="mt-10 px-[100px] py-14">
@@ -121,7 +122,7 @@ const BuildForms = () => {
                                             <h2 className="text-2xl font-semibold text-[#00295A]">Choose your Product?</h2>
                                         </div>
                                         <div className="flex gap-3 pt-7">
-                                            <div className="w-24 h-36 bg-[#00295A]">
+                                            <div className="w-24 h-36 bg-[#00295A] ">
                                                 <div className="pt-4">
                                                     <IoShirtOutline className="text-5xl text-white mx-auto "></IoShirtOutline>
                                                 </div>
@@ -150,8 +151,19 @@ const BuildForms = () => {
                                             </div>
 
                                         </div>
-                                        <div>
-                                            
+
+                                        <div className="pt-7">
+                                            <div className="flex items-center gap-4">
+                                                <div>
+                                                    <button className="px-7 py-3 bg-[#00295A] text-xl text-white font-semibold rounded-md shadow-md">SKIP</button>
+                                                </div>
+                                                <div className="flex  gap-3">
+                                                    <h2 className="text-xl"><span className="font-normal text-[#00295A]">Press</span> <span className="text-[#00295A] font-bold">Enter</span></h2>
+                                                    <FiCornerDownLeft className="text-2xl text-[#00295A]"></FiCornerDownLeft>
+                                                </div>
+
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
