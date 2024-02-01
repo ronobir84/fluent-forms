@@ -1,6 +1,9 @@
 import side1 from "../../../assets/image/Ellipse 166.png"
 import { FcGallery } from "react-icons/fc";
-
+import sideImg from "../../../assets/image/build-sid.png"
+import { FaAngleDown } from "react-icons/fa";
+import { FaAngleUp } from "react-icons/fa";
+import { FaUpDown } from "react-icons/fa6";
 const BuildForms = () => {
     return (
         <div className="mt-10 px-[100px]">
@@ -8,7 +11,7 @@ const BuildForms = () => {
                 {/* first section */}
                 <div className="bg-[#F4FBFF] w-[750px] h-[588px] rounded-md">
                     <div className="px-14 pt-12 space-y-4 w-[70%]">
-                        <h2 className="text-4xl font-bold text-black">Build forms. Faster 
+                        <h2 className="text-4xl font-bold text-black">Build forms. Faster
                             by One Click</h2>
                         <p className="text-xl font-medium text-black">Lorem ipsum dolor sit amet, consectetur  adipiscing elit. Duis imperdiet.</p>
                     </div>
@@ -67,15 +70,15 @@ const BuildForms = () => {
                                         <button className="text-lg font-semibold text-[#6F767E]">Your Message</button>
                                     </div>
                                 </div>
-                                
+
 
                             </div>
                         </div>
-                        
-                            
-                             
-                         
-                                
+
+
+
+
+
                     </div>
 
 
@@ -93,8 +96,21 @@ const BuildForms = () => {
                         </div>
                         <div>
                             <div>
-                                <div>
-                                    <img src="" alt="" />
+                                <div className="">
+                                    <img className="w-80 h-80" src={sideImg} alt="" />
+                                    <div className="flex relative bottom-20 left-5 ">
+                                        <div className="bg-white w-48 h-14 p-2 rounded-l">
+                                            <p className="text-base text-gray-400 font-medium">0% Completed</p>
+                                            <button className="w-40 h-4 bg-[#D9D9D9] rounded-sm"></button>
+
+                                        </div>
+                                        <div className="w-20 h-14 bg-[#00295A] rounded-r">
+                                            <div className="flex gap-2 p-4">
+                                                <FaAngleDown className="text-2xl text-white"></FaAngleDown>
+                                                <FaAngleUp className="text-2xl text-white"></FaAngleUp>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
