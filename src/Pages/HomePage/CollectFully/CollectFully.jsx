@@ -1,5 +1,11 @@
 import worldImage from "../../../assets/image/world-image.png"
-const CollectFully = () => {
+import Icon1 from "../../../assets/image/PayPal-icon.png"
+import Icon2 from "../../../assets/image/shop.icon.png"
+import Icon3 from "../../../assets/image/s-icon.png"
+import Icon4 from "../../../assets/image/sp-icon.png"
+import Icon5 from "../../../assets/image/wire--icon.png"
+import Icon6 from "../../../assets/image/dolore-icon.png"
+ const CollectFully = () => {
     return (
         <div className="py-8">
             <div>
@@ -12,11 +18,17 @@ const CollectFully = () => {
                         </div>
                         
                         <div className="">
-                            <div className="w-52 h-52 absolute border-solid border-[12px] border-[#06CDFF] rounded-full border-opacity-15 ml-[24%]">
+                            <div className="w-52 main-op h-52 absolute border-solid border-[12px] border-[#06CDFF] rounded-full border-opacity-15 ml-[24%]">
 
                             </div>
                             <div>
                                 <img className=" relative  top-[98px]" src={worldImage} alt="" />
+                            </div>
+                            <div>
+                                <div>
+                                    <img className="relative w-20 left-[50%] bottom-36 " src={Icon1} alt="" />
+                                </div>
+                                
                             </div>
 
                         </div>
