@@ -18,16 +18,23 @@ import Icon6 from "../../../assets/image/dolore-icon.png"
                         </div>
                         
                         <div className="">
-                            <div className="w-52 main-op h-52 absolute border-solid border-[12px] border-[#06CDFF] rounded-full border-opacity-15 ml-[24%]">
+                            <div className="w-56 main-op h-56 absolute border-solid border-[17px] border-[#06CDFF] rounded-full border-opacity-15 ml-[24%]">
 
                             </div>
                             <div>
                                 <img className=" relative  top-[98px]" src={worldImage} alt="" />
                             </div>
                             <div>
-                                <div>
-                                    <img className="relative w-20 left-[50%] bottom-36 " src={Icon1} alt="" />
+                                <div className="flex">
+                                    <img className="relative w-20 bottom-36 left-[55%]  " src={Icon1} alt="" />
+                                    <img className="relative w-20 bottom-36 left-[23%] " src={Icon2} alt="" />
+                                    <img className="w-20 relative right-24 bottom-10" src={Icon4} alt="" />
+                                    
+                                    <img className="w-20 relative right-10" src={Icon3} alt="" />
+                                    <img className="relative bg-main left-5 bottom-10    w-[70px] h-[70px] p-4 rounded-md" src={Icon5} alt="" />
+                                    <img className="relative bg-main left-24 bottom-2    w-[70px] h-[70px] p-4 rounded-md" src={Icon6} alt="" />
                                 </div>
+                                 
                                 
                             </div>
 
