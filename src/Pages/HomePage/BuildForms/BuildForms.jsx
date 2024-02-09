@@ -87,7 +87,7 @@ const BuildForms = () => {
 
                 </div>
                 {/* second section */}
-                <div className="w-[750px] h-[588px] bg-[#00295A] ">
+                <div className="w-[750px] h-[588px] bg-[#00295A] rounded-md">
                     <div>
                         <div className="px-10 pt-14">
                             <h2 className="text-3xl text-white font-semibold">Conversational Forms</h2>
@@ -153,7 +153,7 @@ const BuildForms = () => {
                                         </div>
 
                                         <div className="pt-7">
-                                            <div className="flex items-center gap-4">
+                                            <div className="flex items-center gap-4">  
                                                 <div>
                                                     <button className="px-7 py-3 bg-[#00295A] text-xl text-white font-semibold rounded-md shadow-md">SKIP</button>
                                                 </div>

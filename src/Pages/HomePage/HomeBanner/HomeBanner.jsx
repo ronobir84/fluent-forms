@@ -123,7 +123,7 @@ const HomeBanner = () => {
                             {/* from section */}
                             <div className="flex">
                                 
-                                    <div className=" w-[60%] pt-10 px-10 border-r-2 border-gray-600" >
+                                    <div className=" w-[60%] pt-10 px-10 border-r-2 border-gray-300" >
                                         <div className="flex gap-4">
                                             <div className="">
                                                 <span className=" pr-[74%] text-lg  text-[#1E1F21] font-semibold">First Name</span>

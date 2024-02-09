@@ -1,7 +1,7 @@
  
 const Powerful = () => {
     return (
-        <div className="flex justify-between px-[100px] pt-10 items-center">
+        <div className="flex justify-between px-[105px] pt-10 items-center">
             <div className="space-y-3">
                 <h2 className="text-4xl text-black font-bold">Powerful. Simple to use.</h2>
                 <p className="text-xl font-medium text-black">An independent research shows how form plugins load assets. Hint: The lower the better.</p>
