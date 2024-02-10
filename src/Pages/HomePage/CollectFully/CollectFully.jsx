@@ -5,6 +5,10 @@ import Icon3 from "../../../assets/image/s-icon.png"
 import Icon4 from "../../../assets/image/sp-icon.png"
 import Icon5 from "../../../assets/image/wire--icon.png"
 import Icon6 from "../../../assets/image/dolore-icon.png"
+import phone1 from "../../../assets/image/phone-image-1.png"
+import phone2 from "../../../assets/image/phone-image-2.png"
+
+
  const CollectFully = () => {
     return (
         <div className="py-8 px-[100px]">
@@ -44,12 +48,53 @@ import Icon6 from "../../../assets/image/dolore-icon.png"
 
                 </div>
 
-
+                {/* w-60 h-60 border-solid border-b-[14px] border-r-[14px] border-[#8AEAFF] rounded-r-3xl */}
 
 
                 {/* second section */}
                 <div>
-                    <div className="w-[750px] h-[500px] bg-[#F4FBFF]">
+                    <div className="w-[700px] h-[500px] bg-[#F4FBFF] ">
+                        <div className="flex">
+                            <div className="w-96 h-72">
+
+                                <div className="w-[154px] h-[105px] border-solid border-b-[40px]   border-[#8AEAFF] absolute right-[25.5%] rotate-45    rounded-t-3xl rounded-b-lg opacity-30">
+
+                                </div>
+                                <div className=" border-solid border-b-[40px]   border-[#8AEAFF] relative top-[75%]  left-10 -rotate-45 rounded-l-[30px]  rounded-r-[20px] opacity-30">
+
+
+                                </div>
+
+                                <div className="w-[150px] h-[80px] border-solid border-b-[40px]   border-[#8AEAFF] relative top-[80%] rotate-45 rounded-r-[30px] opacity-30">
+
+                                </div>
+
+
+                                <div className=" relative bottom-14 p-8">
+                                    <h2 className="text-2xl text-black font-semibold">Fully mobile responsive</h2>
+                                    <p className="text-lg text-gray-500 font-medium ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                </div>
+                                <div>
+                                    <div className="relative left-[105px] top-6 ">
+                                        <img className="bg-[#FFF] " src={phone2} alt="" />
+                                        
+                                    </div>
+                                
+                                </div>
+
+                            </div>
+
+                            <div>
+                                <div>
+                                    <div className="relative left-[75px] top-[57px] ">
+                                        <img className="bg-[#FFF]" src={phone1} alt="" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+                        
                          
                     </div>
                 </div>

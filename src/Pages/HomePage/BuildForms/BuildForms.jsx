@@ -10,9 +10,9 @@ import { FiCornerDownLeft } from "react-icons/fi";
 const BuildForms = () => {
     return (
         <div className="mt-10 px-[100px] py-14">
-            <div className="flex gap-7">
+            <div className="flex gap-8">
                 {/* first section */}
-                <div className="bg-[#F4FBFF] w-[750px] h-[587px] rounded-md">
+                <div className="bg-[#F4FBFF] w-[750px] h-[587px] rounded-md ">
                     <div className="px-14 pt-12 space-y-4 w-[70%]">
                         <h2 className="text-4xl font-bold text-black">Build forms. Faster
                             by One Click</h2>
