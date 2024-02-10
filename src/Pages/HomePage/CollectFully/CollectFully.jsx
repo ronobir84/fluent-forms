@@ -88,7 +88,33 @@ import phone2 from "../../../assets/image/phone-image-2.png"
                                 <div>
                                     <div className="relative left-[75px] top-[57px] ">
                                         <img className="bg-[#FFF]" src={phone1} alt="" />
+                                        <div>
+                                            
+                                            <div className="absolute top-14 left-6">
+                                                <h2 className="text-xl text-black font-semibold">Personal Informations</h2>
+                                                <div className="pt-2">
+                                                    
+                                                    <div>
+                                                        <span className=" font-semibold text-[#666D7A]">Company Name</span>
+                                                        <input className="h-10 bg-[#ECECEC] mt-1 border-solid border-2 border-gray-300 text-base p-2" type="text" placeholder="Example" />
+                                                   </div>
+                                                    
+                                                    <div className="pt-2">
+                                                        <h2 className=" font-semibold"><span>First Name</span> <span className="text-[#F00] text-lg">*</span></h2>
+                                                        <input className="h-10 bg-[#ECECEC] mt-1 border-solid border-2 border-gray-300 p-2" type="text" placeholder="John" />
+                                                   </div>
+                                                    <div className="pt-2">
+                                                        <h2 className=" font-semibold"><span>First Name</span> <span className="text-[#F00] text-lg">*</span></h2>
+                                                        <input className="h-10 bg-[#ECECEC] mt-1 border-solid border-2 border-gray-300 p-2" type="text" placeholder="John" />
+                                                   </div>
+                                                   
+                                                 </div>
+                                            </div>
+                                            
+                                        </div>
                                     </div>
+                                     
+                                    
                                 </div>
 
                             </div>
