@@ -104,8 +104,12 @@ import phone2 from "../../../assets/image/phone-image-2.png"
                                                         <input className="h-10 bg-[#ECECEC] mt-1 border-solid border-2 border-gray-300 p-2" type="text" placeholder="John" />
                                                    </div>
                                                     <div className="pt-2">
-                                                        <h2 className=" font-semibold"><span>First Name</span> <span className="text-[#F00] text-lg">*</span></h2>
-                                                        <input className="h-10 bg-[#ECECEC] mt-1 border-solid border-2 border-gray-300 p-2" type="text" placeholder="John" />
+                                                        <h2 className=" font-semibold"><span>Last Name</span> <span className="text-[#F00] text-lg">*</span></h2>
+                                                        <input className="h-10 bg-[#ECECEC] mt-1 border-solid border-2 border-gray-300 p-2" type="text" placeholder="Smith" />
+                                                   </div>
+                                                    <div className="pt-2">
+                                                        <h2 className=" font-semibold">Email Address</h2>
+                                                        <input className="h-10 bg-[#ECECEC] mt-1 border-solid border-2 border-gray-300 p-2" type="text" placeholder="Smith" />
                                                    </div>
                                                    
                                                  </div>
