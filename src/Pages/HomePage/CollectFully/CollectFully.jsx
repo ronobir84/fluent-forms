@@ -111,8 +111,14 @@ import phone2 from "../../../assets/image/phone-image-2.png"
                                                         <h2 className=" font-semibold">Email Address</h2>
                                                         <input className="h-10 bg-[#ECECEC] mt-1 border-solid border-2 border-gray-300 p-2" type="text" placeholder="Example@gmail.com" />
                                                     </div>
-                                                    <div>
-                                                         <input type="checkbox"   />
+                                                    <div className="flex">
+                                                        <div>
+                                                            <input type="checkbox" className="w-6 h-6" />
+                                                        </div>
+                                                        <div >
+                                                            <div className="w-14 h-4 bg-[#EFEFEF] rounded-3xl"></div>
+                                                            <div className="w-14 h-4 bg-[#EFEFEF] rounded-3xl"></div>
+                                                        </div>
                                                     </div>
                                                    
                                                  </div>
