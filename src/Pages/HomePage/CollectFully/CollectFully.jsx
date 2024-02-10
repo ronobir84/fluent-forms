@@ -109,8 +109,11 @@ import phone2 from "../../../assets/image/phone-image-2.png"
                                                    </div>
                                                     <div className="pt-2">
                                                         <h2 className=" font-semibold">Email Address</h2>
-                                                        <input className="h-10 bg-[#ECECEC] mt-1 border-solid border-2 border-gray-300 p-2" type="text" placeholder="Smith" />
-                                                   </div>
+                                                        <input className="h-10 bg-[#ECECEC] mt-1 border-solid border-2 border-gray-300 p-2" type="text" placeholder="Example@gmail.com" />
+                                                    </div>
+                                                    <div>
+                                                         <input type="checkbox"   />
+                                                    </div>
                                                    
                                                  </div>
                                             </div>
