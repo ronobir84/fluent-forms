@@ -77,11 +77,15 @@ import phone2 from "../../../assets/image/phone-image-2.png"
                                 <div>
                                     <div className="relative left-[105px] top-6 ">
                                         <img className="bg-[#FFF] " src={phone2} alt="" />
-                                        <div className="absolute top-14 left-7">
+                                        <div className="absolute top-8 left-7">
                                             <h2 className="text-xl text-black font-semibold">Personal Informations</h2>
-                                            <div>
-                                                <span>Company Name</span>
-                                                <input type="text" className="w-96 h-10 bg-[#ECECEC] border-solid border-2 border-gray-300" />
+                                            <div className="pt-1">
+                                                <span className="font-semibold text-[#666D7A]">Company Name</span>
+                                                <input type="text" className="w-96 h-10 bg-[#ECECEC] border-solid border-2 border-gray-300 px-3" placeholder="Example"/>
+                                            </div>
+                                            <div className="pt-1">
+                                                <span className="font-semibold text-[#666D7A]">Solutoins</span>
+                                                <input type="text" className="w-96 h-10 bg-[#ECECEC] border-solid border-2 border-gray-300 px-3" placeholder="Solutoins" />
                                             </div>
                                         </div>
                                         
