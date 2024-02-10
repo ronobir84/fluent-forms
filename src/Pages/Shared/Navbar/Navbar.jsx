@@ -23,8 +23,8 @@ const Navbar = () => {
                 <div className='pt-[70px]'>
                     <div className='bg-[#012A5B] h-[90px] w-full fixed z-30 border-solid border-2 border-[#115382] flex justify-between items-center px-10 shadow-md'>
                         <div className='flex items-center' >
-                            <img className='w-12' src={logo} alt="" />
-                            <h2><span className='text-2xl text-white font-semibold '>Fluent</span><span className='text-2xl text-gray-400'>Forms</span></h2>
+                            <Link className='flex items-center'><img className='w-12' src={logo} alt="" />
+                                <h2><span className='text-2xl text-white font-semibold '>Fluent</span><span className='text-2xl text-gray-400'>Forms</span></h2></Link>
 
 
                              

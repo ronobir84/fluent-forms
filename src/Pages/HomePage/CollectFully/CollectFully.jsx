@@ -90,7 +90,7 @@ import phone2 from "../../../assets/image/phone-image-2.png"
                                         <img className="bg-[#FFF]" src={phone1} alt="" />
                                         <div>
                                             
-                                            <div className="absolute top-14 left-6">
+                                            <div className="absolute top-14 left-6 ">
                                                 <h2 className="text-xl text-black font-semibold">Personal Informations</h2>
                                                 <div className="pt-2">
                                                     
