@@ -3,11 +3,11 @@
  import icon3 from "../../../assets/image/res-icon3.png"
 const Fully = () => {
     return (
-        <div>
-            <div>
+        <div className="px-[100px]">
+            <div className="flex  gap-36">
                 {/* first card */}
-                <div className="w-80 h-64 bg-[#F4FBFF] rounded-md">
-                    <div className="px-5">
+                <div className="w-96 h-64 bg-[#F4FBFF] rounded-md">
+                    <div className="px-10">
                         <div className="pt-12">
                             <img src={icon1} alt="" />
                         </div>
@@ -22,8 +22,8 @@ const Fully = () => {
                 </div>
 
                 {/* second card */}
-                <div className="w-80 h-64 bg-[#F4FBFF] rounded-md">
-                    <div className="px-5">
+                <div className="w-96 h-64 bg-[#F4FBFF] rounded-md">
+                    <div className="px-10">
                         <div className="pt-12">
                             <img src={icon2} alt="" />
                         </div>
@@ -38,8 +38,8 @@ const Fully = () => {
                 </div>
 
                 {/* second card */}
-                <div className="w-80 h-64 bg-[#F4FBFF] rounded-md">
-                    <div className="px-5">
+                <div className="w-96 h-64 bg-[#F4FBFF] rounded-md">
+                    <div className="px-10">
                         <div className="pt-12">
                             <img src={icon3} alt="" />
                         </div>
