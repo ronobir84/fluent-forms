@@ -48,7 +48,7 @@ import phone2 from "../../../assets/image/phone-image-2.png"
 
                 </div>
 
-                {/* w-60 h-60 border-solid border-b-[14px] border-r-[14px] border-[#8AEAFF] rounded-r-3xl */}
+                 
 
 
                 {/* second section */}
@@ -98,7 +98,7 @@ import phone2 from "../../../assets/image/phone-image-2.png"
                             <div>
                                 <div>
                                     <div className="relative left-[75px] top-[57px] ">
-                                        <img className="bg-[#FFF]" src={phone1} alt="" />
+                                        <img className="bg-[#FFF] " src={phone1} alt="" />
                                         <div>
                                             
                                             <div className="absolute top-14 left-6 ">
