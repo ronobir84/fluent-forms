@@ -1,5 +1,6 @@
 import BuildForms from "../BuildForms/BuildForms";
 import CollectFully from "../CollectFully/CollectFully";
+import Connect from "../Connect/Connect";
 import Fully from "../Fully/Fully";
 import HomeBanner from "../HomeBanner/HomeBanner";
 import Powerful from "../Powerful/Powerful";
@@ -23,6 +24,9 @@ const Home = () => {
             </div>
             <div>
                 <Fully></Fully>
+            </div>
+            <div>
+                <Connect></Connect>
             </div>
         </div>
     );
