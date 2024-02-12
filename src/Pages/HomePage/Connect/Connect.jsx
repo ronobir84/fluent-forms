@@ -22,12 +22,13 @@ import { MdArrowOutward } from "react-icons/md";
 
                                 </div>
                             </div>
-                            <div className="w-52 h-4 bg-[#C9E4F3] rounded-l-3xl ml-12 mt-2"></div>
+                            <div className="w-52 h-4 bg-[#C9E4F3] rounded-l-3xl ml-12 mt-1"></div>
                             <div className="w-52 h-4 bg-[#C9E4F3] rounded-l-3xl ml-12 mt-2"></div>
                             <div className="w-52 h-4 bg-[#C9E4F3] rounded-l-3xl ml-12 mt-2"></div>
 
-                            <div>
-                                <input type="checkbox" className="toggle [--tglbg:yellow] bg-blue-500 hover:bg-blue-700 border-blue-500" checked />
+                            <div className="flex items-center gap-2 border-solid border-t-2 border-[#DEEFF9] mt-4 ">
+                                <input type="checkbox" className="toggle [--tglbg:#00B27F] bg-white hover:bg-white mt-4 ml-8" checked />
+                                <h3 className="text-base text-[#353537] font-normal mt-4 ">Currently Enable</h3>
                             </div>
 
                         </div>
