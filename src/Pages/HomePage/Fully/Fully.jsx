@@ -24,7 +24,7 @@ const Fully = () => {
                 {/* second card */}
                 <div className="w-96 h-64 bg-[#F4FBFF] rounded-md">
                     <div className="px-10">
-                        <div className="pt-12">
+                        <div className="pt-8">
                             <img src={icon2} alt="" />
                         </div>
                         <div className="pt-8 space-y-3">
@@ -37,7 +37,7 @@ const Fully = () => {
 
                 </div>
 
-                {/* second card */}
+                {/* third card */}
                 <div className="w-96 h-64 bg-[#F4FBFF] rounded-md">
                     <div className="px-10">
                         <div className="pt-12">
