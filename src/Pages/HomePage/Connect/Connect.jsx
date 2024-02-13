@@ -1,11 +1,11 @@
 import { MdArrowOutward } from "react-icons/md";
- 
+ import mlImg from "../../../assets/image/ml.png"
  const Connect = () => {
     return (
         <div className="py-10">
             <div className="flex gap-14">
                 {/* first section */}
-                <div className="w-[600px] h-80 bg-[#00295A]">
+                <div className="w-[600px] h-80 bg-[#00295A] rounded">
                     <div className="flex justify-between">
                         <div className="pt-16 pl-4 space-y-3">
                             <h2 className="text-2xl text-white font-semibold">Connect to CRM</h2>
@@ -40,17 +40,21 @@ import { MdArrowOutward } from "react-icons/md";
                 {/*second section  */}
 
                 <div>
-                    <div className="bg-[#002148] w-80 h-80 blur-[3px]">
-                        <button className="w-56 h-4 bg-[#393939] rounded-3xl ml-7 mt-7"></button>
-                        <button className="w-11/12 h-5 bg-[#393939] rounded-3xl mt-4"></button>
-                        <button className=" px-8 py-2 bg-white rounded ml-4">HELLO</button>
-                        <button className=" px-14 py-2 bg-white rounded ml-4">SEND</button>
-                        <button className=" px-8 py-2 bg-white rounded  mt-6 ml-7">TEXT</button>
-                        <button className=" px-14 py-2 bg-[#1A7EFB] rounded mt-10 ml-20">SEND</button>
-                        <div >
+                    <div>
+                        <div className="bg-[#002148] w-80 h-80 blur-[3px]">
+                            <button className="w-56 h-4 bg-[#163B67] rounded-3xl ml-7 mt-7"></button>
+                            <button className="w-11/12 h-5 bg-[#163B67] rounded-3xl mt-4 ml-4"></button>
+                            <button className=" px-8 py-2 bg-white rounded ml-4 mt-3">HELLO</button>
+                            <button className=" px-14 py-2 bg-white rounded ml-4">SEND</button>
+                            <button className=" px-8 py-2 bg-white rounded  mt-6 ml-7">TEXT</button>
+                            <button className=" px-14 py-2 bg-[#1A7EFB] rounded mt-10 ml-20">SEND</button>
+
 
                         </div>
+                        <div className="w-40 h-40 bg-white border-solid border-4 border-[#D6D6D6] rounded-full relative bottom-56 left-[76px]">
+                            <img className="p-9" src={mlImg} alt="" />
 
+                        </div>
                     </div>
                        
 
