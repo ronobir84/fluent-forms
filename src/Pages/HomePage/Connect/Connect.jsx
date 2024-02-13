@@ -3,18 +3,19 @@ import { MdArrowOutward } from "react-icons/md";
  const Connect = () => {
     return (
         <div className="py-10">
-            <div>
-                <div className="w-[600px] h-[260px] bg-[#00295A]">
+            <div className="flex gap-10">
+                {/* first section */}
+                <div className="w-[600px] h-80 bg-[#00295A]">
                     <div className="flex justify-between">
                         <div className="pt-16 pl-4 space-y-3">
                             <h2 className="text-2xl text-white font-semibold">Connect to CRM</h2>
                             <p className="text-white font-normal text-base">Your favorite CRM tool is one step away <br /> from connecting with Fluent Forms. <br /> Don’t lose another lead.</p>
                         </div>
-                        <div className="w-[270px] h-[250px] bg-[#163B67] rounded-lg ">
+                        <div className="w-[270px] h-[280px] bg-[#163B67] rounded-lg ">
 
                         </div>
-                        <div className="w-64 h-[230px] bg-[#F4FBFF] absolute left-[20.6%]  rounded-md shadow-lg">
-                            <div className="flex items-center justify-between py-2">
+                        <div className="w-64 h-[250px] bg-[#F4FBFF] absolute left-[20.6%]  rounded-md shadow-lg">
+                            <div className="flex items-center justify-between py-2 mt-2">
                                 <div className="w-[70px] h-[70px] bg-[#C9E4F3] p-[11px] rounded-full ml-5">
                                     <MdArrowOutward className="w-12 h-12 p-2 bg-[#FFFFFF] rounded-full"></MdArrowOutward>
                                 </div>
@@ -22,7 +23,7 @@ import { MdArrowOutward } from "react-icons/md";
 
                                 </div>
                             </div>
-                            <div className="w-52 h-4 bg-[#C9E4F3] rounded-l-3xl ml-12 mt-1"></div>
+                            <div className="w-52 h-4 bg-[#C9E4F3] rounded-l-3xl ml-12 mt-2"></div>
                             <div className="w-52 h-4 bg-[#C9E4F3] rounded-l-3xl ml-12 mt-2"></div>
                             <div className="w-52 h-4 bg-[#C9E4F3] rounded-l-3xl ml-12 mt-2"></div>
 
@@ -32,6 +33,17 @@ import { MdArrowOutward } from "react-icons/md";
                             </div>
 
                         </div>
+                    </div>
+
+                </div>
+
+                {/*second section  */}
+
+                <div>
+                    <div className="bg-[#002148] w-80 h-80">
+                        <button className="w-56 h-4 bg-[#393939] rounded-3xl ml-7"></button>
+                        <button className="w-11/12 h-5 bg-[#393939] rounded-3xl mt-4"></button>
+
                     </div>
 
                 </div>
