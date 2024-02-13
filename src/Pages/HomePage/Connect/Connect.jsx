@@ -2,8 +2,8 @@ import { MdArrowOutward } from "react-icons/md";
  import mlImg from "../../../assets/image/ml.png"
  const Connect = () => {
     return (
-        <div className="py-10">
-            <div className="flex gap-14">
+        <div className="py-10 px-[90px]">
+            <div className="flex gap-8">
                 {/* first section */}
                 <div className="w-[600px] h-80 bg-[#00295A] rounded">
                     <div className="flex justify-between">
@@ -14,7 +14,7 @@ import { MdArrowOutward } from "react-icons/md";
                         <div className="w-[270px] h-[280px] bg-[#163B67] rounded-lg ">
 
                         </div>
-                        <div className="w-64 h-[250px] bg-[#F4FBFF] absolute left-[20.6%]  rounded-md shadow-lg">
+                        <div className="w-64 h-[250px] bg-[#F4FBFF] absolute left-[25.8%]  rounded-md shadow-lg">
                             <div className="flex items-center justify-between py-2 mt-2">
                                 <div className="w-[70px] h-[70px] bg-[#C9E4F3] p-[11px] rounded-full ml-5">
                                     <MdArrowOutward className="w-12 h-12 p-2 bg-[#FFFFFF] rounded-full"></MdArrowOutward>
@@ -39,9 +39,9 @@ import { MdArrowOutward } from "react-icons/md";
 
                 {/*second section  */}
 
-                <div>
+                <div className="flex">
                     <div>
-                        <div className="bg-[#002148] w-80 h-80 blur-[3px]">
+                        <div className="bg-[#002148] w-80 h-80 blur-[3px] rounded-none">
                             <button className="w-56 h-4 bg-[#163B67] rounded-3xl ml-7 mt-7"></button>
                             <button className="w-11/12 h-5 bg-[#163B67] rounded-3xl mt-4 ml-4"></button>
                             <button className=" px-8 py-2 bg-white rounded ml-4 mt-3">HELLO</button>
@@ -56,6 +56,14 @@ import { MdArrowOutward } from "react-icons/md";
 
                         </div>
                     </div>
+                    <div className="w-[500px] h-80 bg-[#F4FBFF] rounded-r-md">
+                        <div className="pt-20 px-10 space-y-5">
+                            <h2 className="text-3xl font-bold text-black">Send notifications. Instantly</h2>
+                            <p className="text-base font-medium text-black ">Connect your users with instant notifications via email and SMS whenever they subscribe or submit a form.</p>
+                        </div>
+
+                    </div>
+
                        
 
                 </div>
