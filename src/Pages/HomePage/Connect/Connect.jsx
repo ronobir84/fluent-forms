@@ -3,7 +3,7 @@ import { MdArrowOutward } from "react-icons/md";
  const Connect = () => {
     return (
         <div className="py-10 mx-[90px] mt-10">
-            <div className="flex gap-8">
+            <div className="flex gap-12">
                 {/* first section */}
                 <div className="w-[600px] h-80 bg-[#00295A] rounded">
                     <div className="flex justify-between">
