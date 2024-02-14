@@ -7,7 +7,7 @@ import { MdArrowOutward } from "react-icons/md";
                 {/* first section */}
                 <div className="w-[600px] h-80 bg-[#00295A] rounded">
                     <div className="flex justify-between">
-                        <div className="pt-16 pl-4 space-y-3">
+                        <div className="pt-16 pl-8 space-y-3">
                             <h2 className="text-2xl text-white font-semibold">Connect to CRM</h2>
                             <p className="text-white font-normal text-base">Your favorite CRM tool is one step away <br /> from connecting with Fluent Forms. <br /> Don’t lose another lead.</p>
                         </div>
@@ -51,15 +51,18 @@ import { MdArrowOutward } from "react-icons/md";
 
 
                         </div>
-                        <div className="w-40 h-40 bg-white border-solid border-4 border-[#D6D6D6] rounded-full relative bottom-56 left-[76px]">
-                            <img className="p-9" src={mlImg} alt="" />
-
-                        </div>
+                        
                     </div>
                     <div className="w-[500px] h-80 bg-[#F4FBFF] rounded-r-md">
+                        
                         <div className="pt-20 px-10 space-y-5">
+                            
                             <h2 className="text-3xl font-bold text-black">Send notifications. Instantly</h2>
                             <p className="text-base font-medium text-black ">Connect your users with instant notifications via email and SMS whenever they subscribe or submit a form.</p>
+                        </div>
+                        <div className="w-40 h-40 bg-white border-solid border-4 border-[#D6D6D6] rounded-full  relative right-[48%] bottom-24">
+                            <img className="p-9" src={mlImg} alt="" />
+
                         </div>
 
                     </div>

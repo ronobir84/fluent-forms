@@ -3,7 +3,7 @@
 const Craft = () => {
     return (
         <div>
-            <div className="w-full h-14 bg-[]">
+            <div className="w-full h-28 bg-[#0976FF] ">
 
             </div>
         </div>
