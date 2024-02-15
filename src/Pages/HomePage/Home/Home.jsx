@@ -4,6 +4,7 @@ import Connect from "../Connect/Connect";
 import Craft from "../Craft/Craft";
 import Fully from "../Fully/Fully";
 import HomeBanner from "../HomeBanner/HomeBanner";
+import NextLevel from "../NextLevel/NextLevel";
 import Powerful from "../Powerful/Powerful";
 
  
@@ -31,6 +32,9 @@ const Home = () => {
             </div>
             <div>
                 <Craft></Craft>
+            </div>
+            <div>
+                <NextLevel></NextLevel>
             </div>
         </div>
     );
