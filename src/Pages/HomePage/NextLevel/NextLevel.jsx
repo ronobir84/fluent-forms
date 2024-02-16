@@ -1,4 +1,6 @@
- 
+import { FaMoneyCheck, FaUserGroup } from "react-icons/fa6";
+import { BsBookmarkCheckFill } from "react-icons/bs";
+ import gallery from "../../../assets/image/galler.png"
 const NextLevel = () => {
     return (
         <div>
@@ -11,8 +13,12 @@ const NextLevel = () => {
                 </div>
                 <div>
                     <div>
-                        <h1 className="text-5xl font-bold text-white">The <span className="text-[#0976FF]">Next Level</span> Experience</h1>
-                        <p className="text-white text-base font-normal">An <span className="text-[#0976FF]">independent research</span> shows how form plugins load assets. Hint: The lower the better.</p>
+                        <h1 className="text-6xl font-bold text-white">The <span className="text-[#0976FF]">Next Level</span> Experience</h1>
+                        <p className="text-white text-xl font-normal">An <span className="text-[#0976FF]">independent research</span> shows how form plugins load assets. Hint: The lower the better.</p>
+                    </div>
+
+                    <div>
+
                     </div>
                 </div>
 
