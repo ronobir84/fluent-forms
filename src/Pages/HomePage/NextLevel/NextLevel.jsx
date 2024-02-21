@@ -25,9 +25,15 @@ const NextLevel = () => {
                             </button>
                         </div>
                         <div>
-                            <button className="flex gap-2 items-center px-6 py-[10px] bg-[#154879] rounded-md border-solid border-2 border-[#4898FC]">
+                            <button className="flex gap-2  items-center px-6 py-[10px] bg-[#154879] rounded-md border-solid border-2 border-[#4898FC]">
                                 <BsBookmarkCheckFill className="w-7 h-7 text-[#4898FC]"></BsBookmarkCheckFill>
                                 <span className="text-xl text-white font-normal">beginner-friendly</span>
+                            </button>
+                        </div>
+                        <div>
+                            <button className="flex gap-2  items-center px-6 py-[10px] bg-[#154879] rounded-md border-solid border-2 border-[#4898FC]">
+                                <FaUserGroup className="w-7 h-7 text-[#4898FC]"></FaUserGroup>
+                                <span className="text-xl text-white font-normal">300,000 customers</span>
                             </button>
                         </div>
 
