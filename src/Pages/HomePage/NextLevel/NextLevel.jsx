@@ -6,7 +6,7 @@ import play from "../../../assets/image/play.png"
 const NextLevel = () => {
     return (
         <div>
-            <div className="min-h-screen bg-[#00295A]">
+            <div className="min-h-screen bg-[#00295A] py-14">
                 <div className="w-72 h-72 bl-min bg-[#2FF3FF] absolute   right-0 mt-[17%]  rounded-full ">
 
                 </div>
@@ -47,18 +47,15 @@ const NextLevel = () => {
 
                     </div>
                 </div>
-                <div className="">
-                    <div className="">
+                <div>
+                    <div>
                         <div>
                             <img className="absolute w-28 left-[45%] mt-[16%]" src={play} alt="" />
                         </div>
-                        <img className=" mx-auto  pr-20" src={nextImg} alt="" />
+                        <img className=" mx-auto  pr-20 " src={nextImg} alt="" />
                         
                     </div>
-                    <div className="">
-                        
-
-                    </div>
+                     
                 </div>
 
 
