@@ -1,6 +1,8 @@
 import { FaMoneyCheck, FaUserGroup } from "react-icons/fa6";
 import { BsBookmarkCheckFill } from "react-icons/bs";
 import { FaRegWindowRestore } from "react-icons/fa";
+import nextImg from "../../../assets/image/next.png"
+import play from "../../../assets/image/play.png"
 const NextLevel = () => {
     return (
         <div>
@@ -42,6 +44,19 @@ const NextLevel = () => {
                                 <span className="text-xl text-white font-normal">Enriched templates</span>
                             </button>
                         </div>
+
+                    </div>
+                </div>
+                <div className="">
+                    <div className="">
+                        <div>
+                            <img className="absolute w-28 left-[45%] mt-[16%]" src={play} alt="" />
+                        </div>
+                        <img className=" mx-auto  pr-20" src={nextImg} alt="" />
+                        
+                    </div>
+                    <div className="">
+                        
 
                     </div>
                 </div>
