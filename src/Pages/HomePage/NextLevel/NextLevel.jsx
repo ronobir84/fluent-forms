@@ -50,7 +50,7 @@ const NextLevel = () => {
                 <div>
                     <div>
                         <div>
-                            <img className="absolute w-28 left-[45%] mt-[16%]" src={play} alt="" />
+                            <img className="absolute w-28 left-[45%] mt-[16%] cursor-pointer" src={play} alt="" />
                         </div>
                         <img className=" mx-auto  pr-20 " src={nextImg} alt="" />
                         
