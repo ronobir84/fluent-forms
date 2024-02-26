@@ -33,12 +33,14 @@ const WatchSection = () => {
                                     </button>
                                     
                                 </div>
+
+
                                 {/* second button */}
                                 <div className="mt-2">
                                     <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md">
                                         <div className="flex items-center gap-6">
                                             <FiFileText className="text-3xl text-[#001222] "></FiFileText>
-                                            <span className="text-xl text-[#001222] font-medium">Contact Form</span>
+                                            <span className="text-xl text-[#001222] font-medium">Multi Step Form</span>
                                         </div>
                                         <div>
                                             <button className="w-11 h-11 text-xl bg-[#E6E6E6] rounded-full p-1 text-[#868686] font-semibold">01</button>
@@ -46,6 +48,23 @@ const WatchSection = () => {
                                     </button>
                                     
                                 </div>
+
+                                {/* third button */}
+                                <div className="mt-2">
+                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md">
+                                        <div className="flex items-center gap-6">
+                                            <FiFileText className="text-3xl text-[#001222] "></FiFileText>
+                                            <span className="text-xl text-[#001222] font-medium">Calculation Form</span>
+                                        </div>
+                                        <div>
+                                            <button className="w-11 h-11 text-xl bg-[#E6E6E6] rounded-full p-1 text-[#868686] font-semibold">02</button>
+                                        </div>
+                                    </button>
+                                    
+                                </div>
+
+
+
                             </div>
 
                         </div>
