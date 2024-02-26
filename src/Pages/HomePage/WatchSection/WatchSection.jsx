@@ -22,7 +22,7 @@ const WatchSection = () => {
                             <div>
                                 {/* first button */}
                                 <div>
-                                    <button className="flex w-96  h-16 bg-[#00295A] justify-between items-center  p-4 rounded-md">
+                                    <button className="flex w-96  h-16 bg-[#00295A] justify-between items-center  p-4 rounded-md shadow-md">
                                         <div className="flex items-center gap-6">
                                             <FiFileText className="text-3xl text-[#FFFFFF] "></FiFileText>
                                             <span className="text-xl text-[#FFFFFF] font-medium">Contact Form</span>
@@ -37,7 +37,7 @@ const WatchSection = () => {
 
                                 {/* second button */}
                                 <div className="mt-2">
-                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md">
+                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md shadow-md">
                                         <div className="flex items-center gap-6">
                                             <FiFileText className="text-3xl text-[#001222] "></FiFileText>
                                             <span className="text-xl text-[#001222] font-medium">Multi Step Form</span>
@@ -51,7 +51,7 @@ const WatchSection = () => {
 
                                 {/* third button */}
                                 <div className="mt-2">
-                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md">
+                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md shadow-md">
                                         <div className="flex items-center gap-6">
                                             <FiFileText className="text-3xl text-[#001222] "></FiFileText>
                                             <span className="text-xl text-[#001222] font-medium">Calculation Form</span>
@@ -65,7 +65,7 @@ const WatchSection = () => {
 
                                 {/* four button */}
                                 <div className="mt-2">
-                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md">
+                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md shadow-md">
                                         <div className="flex items-center gap-6">
                                             <FiFileText className="text-3xl text-[#001222] "></FiFileText>
                                             <span className="text-xl text-[#001222] font-medium">Feedback Form</span>
@@ -79,7 +79,7 @@ const WatchSection = () => {
 
                                 {/*  five button */}
                                 <div className="mt-2">
-                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md">
+                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md shadow-md">
                                         <div className="flex items-center gap-6">
                                             <FiFileText className="text-3xl text-[#001222] "></FiFileText>
                                             <span className="text-xl text-[#001222] font-medium">Conditional Form</span>
@@ -93,7 +93,7 @@ const WatchSection = () => {
 
                                 {/*  six button */}
                                 <div className="mt-2">
-                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md">
+                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md shadow-md">
                                         <div className="flex items-center gap-6">
                                             <FiFileText className="text-3xl text-[#001222] "></FiFileText>
                                             <span className="text-xl text-[#001222] font-medium">Volunteer Application</span>
@@ -107,7 +107,7 @@ const WatchSection = () => {
 
                                 {/*  seven button */}
                                 <div className="mt-2">
-                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md">
+                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md shadow-md">
                                         <div className="flex items-center gap-6">
                                             <FiFileText className="text-3xl text-[#001222] "></FiFileText>
                                             <span className="text-xl text-[#001222] font-medium">Booking Form</span>
@@ -121,7 +121,7 @@ const WatchSection = () => {
 
                                 {/*  eight button */}
                                 <div className="mt-2">
-                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md">
+                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md shadow-md">
                                         <div className="flex items-center gap-6">
                                             <FiFileText className="text-3xl text-[#001222] "></FiFileText>
                                             <span className="text-xl text-[#001222] font-medium">Event Form</span>
@@ -135,7 +135,7 @@ const WatchSection = () => {
 
                                 {/*  nine button */}
                                 <div className="mt-2">
-                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md">
+                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md shadow-md">
                                         <div className="flex items-center gap-6">
                                             <FiFileText className="text-3xl text-[#001222] "></FiFileText>
                                             <span className="text-xl text-[#001222] font-medium">Loan Application</span>
@@ -149,7 +149,7 @@ const WatchSection = () => {
 
                                 {/*  ten button */}
                                 <div className="mt-2">
-                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md">
+                                    <button className="flex w-96  h-16 bg-[#FFF] justify-between items-center  p-4 rounded-md shadow-md">
                                         <div className="flex items-center gap-6">
                                             <FiFileText className="text-3xl text-[#001222] "></FiFileText>
                                             <span className="text-xl text-[#001222] font-medium">Job Application</span>
