@@ -57,25 +57,18 @@ import phone2 from "../../../assets/image/phone-image-2.png"
                         <div className="flex">
                             <div className="w-96 h-72">
 
-                                <div className="w-[154px] h-[105px] border-solid border-b-[40px]   border-[#8AEAFF] absolute right-[25.5%] rotate-45    rounded-t-3xl rounded-b-lg opacity-30">
+                                 
+                                 
 
-                                </div>
-                                <div className=" border-solid border-b-[40px]   border-[#8AEAFF] relative top-[75%]  left-10 -rotate-45 rounded-l-[30px]  rounded-r-[20px] opacity-30">
-
-
-                                </div>
-
-                                <div className="w-[150px] h-[80px] border-solid border-b-[40px]   border-[#8AEAFF] relative top-[80%] rotate-45 rounded-r-[30px] opacity-30">
-
-                                </div>
+                                 
 
 
-                                <div className=" relative bottom-14 p-8">
+                                <div className=" relative p-8 top-10">
                                     <h2 className="text-2xl text-black font-semibold">Fully mobile responsive</h2>
                                     <p className="text-lg text-gray-500 font-medium ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                                 </div>
                                 <div>
-                                    <div className="relative left-[105px] top-6 ">
+                                    <div className="relative left-[105px] top-[145px] ">
                                         <img className="bg-[#FFF] " src={phone2} alt="" />
                                         <div className="absolute top-8 left-7">
                                             <h2 className="text-xl text-black font-semibold">Personal Informations</h2>
