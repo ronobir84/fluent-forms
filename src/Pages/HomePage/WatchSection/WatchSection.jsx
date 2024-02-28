@@ -1,7 +1,7 @@
 import { FiFileText } from "react-icons/fi";
 const WatchSection = () => {
     return (
-        <div className="min-h-screen bg-[#F4FBFF]">
+        <div className="min-h-screen bg-[#F4FBFF] py-16">
             <div>
                 <div className="flex justify-between px-[100px] pt-16">
                     <div>
@@ -16,7 +16,7 @@ const WatchSection = () => {
 
 
                 <div>
-                    <div>
+                    <div className="flex justify-between px-[100px]">
                         {/* first section */}
                         <div>
                             <div>
@@ -31,7 +31,7 @@ const WatchSection = () => {
                                             <button className="w-11 h-11 text-xl bg-[#FFFFFF] rounded-full p-1 text-black font-semibold">02</button>
                                         </div>
                                     </button>
-                                    
+
                                 </div>
 
 
@@ -46,7 +46,7 @@ const WatchSection = () => {
                                             <button className="w-11 h-11 text-xl bg-[#E6E6E6] rounded-full p-1 text-[#868686] font-semibold">01</button>
                                         </div>
                                     </button>
-                                    
+
                                 </div>
 
                                 {/* third button */}
@@ -60,7 +60,7 @@ const WatchSection = () => {
                                             <button className="w-11 h-11 text-xl bg-[#E6E6E6] rounded-full p-1 text-[#868686] font-semibold">02</button>
                                         </div>
                                     </button>
-                                    
+
                                 </div>
 
                                 {/* four button */}
@@ -74,7 +74,7 @@ const WatchSection = () => {
                                             <button className="w-11 h-11 text-xl bg-[#E6E6E6] rounded-full p-1 text-[#868686] font-semibold">02</button>
                                         </div>
                                     </button>
-                                    
+
                                 </div>
 
                                 {/*  five button */}
@@ -88,7 +88,7 @@ const WatchSection = () => {
                                             <button className="w-11 h-11 text-xl bg-[#E6E6E6] rounded-full p-1 text-[#868686] font-semibold">02</button>
                                         </div>
                                     </button>
-                                    
+
                                 </div>
 
                                 {/*  six button */}
@@ -102,7 +102,7 @@ const WatchSection = () => {
                                             <button className="w-11 h-11 text-xl bg-[#E6E6E6] rounded-full p-1 text-[#868686] font-semibold">02</button>
                                         </div>
                                     </button>
-                                    
+
                                 </div>
 
                                 {/*  seven button */}
@@ -116,7 +116,7 @@ const WatchSection = () => {
                                             <button className="w-11 h-11 text-xl bg-[#E6E6E6] rounded-full p-1 text-[#868686] font-semibold">02</button>
                                         </div>
                                     </button>
-                                    
+
                                 </div>
 
                                 {/*  eight button */}
@@ -130,7 +130,7 @@ const WatchSection = () => {
                                             <button className="w-11 h-11 text-xl bg-[#E6E6E6] rounded-full p-1 text-[#868686] font-semibold">02</button>
                                         </div>
                                     </button>
-                                    
+
                                 </div>
 
                                 {/*  nine button */}
@@ -144,7 +144,7 @@ const WatchSection = () => {
                                             <button className="w-11 h-11 text-xl bg-[#E6E6E6] rounded-full p-1 text-[#868686] font-semibold">02</button>
                                         </div>
                                     </button>
-                                    
+
                                 </div>
 
                                 {/*  ten button */}
@@ -158,7 +158,7 @@ const WatchSection = () => {
                                             <button className="w-11 h-11 text-xl bg-[#E6E6E6] rounded-full p-1 text-[#868686] font-semibold">02</button>
                                         </div>
                                     </button>
-                                    
+
                                 </div>
 
 
@@ -173,13 +173,23 @@ const WatchSection = () => {
 
                         {/* second section */}
                         <div>
+                            <div className="w-[950px] h-[710px] bg-[#FFF]">
+                                <div className="w-full h-14 bg-[#00295A] rounded-t-md">
+                                    <div>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
 
                         </div>
                     </div>
 
                 </div>
             </div>
-            
+
         </div>
     );
 };
