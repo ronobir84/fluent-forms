@@ -186,27 +186,23 @@ const WatchSection = () => {
                                         <h2 className="text-4xl text-[#001222] font-medium">Contact Form One</h2>
                                     </div>
 
-                                    <div>
+                                    <div className="flex justify-between">
                                         <div>
-                                             
-                                        
-                                                 
+                                            <span className="text-black text-base">First Name</span>
+                                            <div className="mt-1">
                                                 <input className="w-[370px] h-[53px] bg-white border-solid border-2 border-[#CFCBCB] p-4 rounded text-black" type="text" placeholder="Jhon" />
-                                                
-                                              
-                                            
+                                            </div>
                                         </div>
                                         <div>
-                                             
-                                        
-                                                 
+                                            <span className="text-black text-base">Last Name</span>
+                                            <div>
                                                 <input className="w-[370px] h-[53px] bg-white border-solid border-2 border-[#CFCBCB] p-4 rounded text-black" type="text" placeholder="Jhon" />
-                                                
-                                              
-                                            
+                                            </div>
                                         </div>
+
                                     </div>
-                               </div>
+                                    
+                                </div>
 
                             </div>
 
