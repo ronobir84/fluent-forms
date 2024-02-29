@@ -176,17 +176,23 @@ const WatchSection = () => {
                             <div className="w-[950px] h-[710px] bg-[#FFF] rounded-md shadow-md">
                                 <div className="w-full h-[70px] bg-[#00295A] rounded-t-md">
                                     <div className="flex gap-8 items-center">
-                                        
-                                        <button className="bg-[#193E6A] px-6 py-3 text-lg text-white font-semibold mt-[18px] ml-14 rounded-t-md">Demo Style 01</button>
-                                        <button className="text-lg font-semibold text-white">Demo Style 02</button>
-                                        <button className="text-lg font-semibold text-white">Demo Style 03</button>
-                                       
-                                         
-
+                                        <button className="bg-[#193E6A] px-6 py-3 text-lg text-white font-semibold mt-[18px] ml-14 rounded-t-lg">Demo Style 01</button>
+                                        <button className="text-lg font-semibold text-white mt-3">Demo Style 02</button>
+                                        <button className="text-lg font-semibold text-white mt-3">Demo Style 03</button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="mt-8">
+                                        <h2 className="text-4xl text-[#001222] font-medium">Contact Form One</h2>
                                     </div>
 
-
-                                </div>
+                                    <div>
+                                        <div>
+                                             
+                                            <input className="w-80 h-[52px]" type="text" placeholder="Jhon" />
+                                        </div>
+                                    </div>
+                               </div>
 
                             </div>
 
