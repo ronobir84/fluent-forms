@@ -201,6 +201,13 @@ const WatchSection = () => {
                                         </div>
 
                                     </div>
+
+                                    <div>
+                                        <span className="text-black text-base">Email</span>
+                                        <div className="mt-1">
+                                            <input className="w-full h-[53px] bg-white border-solid border-2 border-[#CFCBCB] p-4 rounded" type="email" placeholder="jhon@smith" />
+                                        </div>
+                                    </div>
                                     
                                 </div>
 
