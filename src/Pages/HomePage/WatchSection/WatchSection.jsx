@@ -189,7 +189,21 @@ const WatchSection = () => {
                                     <div>
                                         <div>
                                              
-                                            <input className="w-80 h-[52px]" type="text" placeholder="Jhon" />
+                                        
+                                                 
+                                                <input className="w-[370px] h-[53px] bg-white border-solid border-2 border-[#CFCBCB] p-4 rounded text-black" type="text" placeholder="Jhon" />
+                                                
+                                              
+                                            
+                                        </div>
+                                        <div>
+                                             
+                                        
+                                                 
+                                                <input className="w-[370px] h-[53px] bg-white border-solid border-2 border-[#CFCBCB] p-4 rounded text-black" type="text" placeholder="Jhon" />
+                                                
+                                              
+                                            
                                         </div>
                                     </div>
                                </div>
