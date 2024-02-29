@@ -15,7 +15,7 @@ const WatchSection = () => {
 
 
 
-                <div>
+                <div className="mt-10">
                     <div className="flex justify-between px-[100px]">
                         {/* first section */}
                         <div>
@@ -173,9 +173,15 @@ const WatchSection = () => {
 
                         {/* second section */}
                         <div>
-                            <div className="w-[950px] h-[710px] bg-[#FFF]">
-                                <div className="w-full h-14 bg-[#00295A] rounded-t-md">
-                                    <div>
+                            <div className="w-[950px] h-[710px] bg-[#FFF] rounded-md shadow-md">
+                                <div className="w-full h-[70px] bg-[#00295A] rounded-t-md">
+                                    <div className="flex gap-8 items-center">
+                                        
+                                        <button className="bg-[#193E6A] px-6 py-3 text-lg text-white font-semibold mt-[18px] ml-14 rounded-t-md">Demo Style 01</button>
+                                        <button className="text-lg font-semibold text-white">Demo Style 02</button>
+                                        <button className="text-lg font-semibold text-white">Demo Style 03</button>
+                                       
+                                         
 
                                     </div>
 
