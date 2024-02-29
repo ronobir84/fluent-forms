@@ -181,7 +181,7 @@ const WatchSection = () => {
                                         <button className="text-lg font-semibold text-white mt-3">Demo Style 03</button>
                                     </div>
                                 </div>
-                                <div>
+                                <div className="space-y-10 px-16">
                                     <div className="mt-8">
                                         <h2 className="text-4xl text-[#001222] font-medium">Contact Form One</h2>
                                     </div>
