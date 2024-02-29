@@ -208,6 +208,18 @@ const WatchSection = () => {
                                             <input className="w-full h-[53px] bg-white border-solid border-2 border-[#CFCBCB] p-4 rounded" type="email" placeholder="jhon@smith" />
                                         </div>
                                     </div>
+
+                                    <div>
+                                        <span className="text-base text-black"><span className="text-red-700">*</span> Subscription Item</span>
+                                        <div className="mt-1 mb-1">
+                                            <input className="w-full h-[53px] bg-white border-solid border-2 border-[#CFCBCB] p-4 rounded" type="text" placeholder="Subscripton Item" />
+                                        </div>
+                                        <span className="text-base text-[#626261] ">$120.00 for each month</span>
+                                    </div>
+
+                                    <div>
+                                        <button className="bg-[#00295A] px-7 py-3 text-xl font-medium rounded text-white">Submit Form</button>
+                                    </div>
                                     
                                 </div>
 
