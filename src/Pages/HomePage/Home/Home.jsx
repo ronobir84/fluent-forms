@@ -6,6 +6,7 @@ import Fully from "../Fully/Fully";
 import HomeBanner from "../HomeBanner/HomeBanner";
 import NextLevel from "../NextLevel/NextLevel";
 import Powerful from "../Powerful/Powerful";
+import Seehow from "../Seehow/Seehow";
 import WatchSection from "../WatchSection/WatchSection";
 
  
@@ -39,6 +40,9 @@ const Home = () => {
             </div>
             <div>
                 <WatchSection></WatchSection>
+            </div>
+            <div>
+                <Seehow></Seehow>
             </div>
         </div>
     );
