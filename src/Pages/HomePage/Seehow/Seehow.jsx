@@ -10,7 +10,7 @@ const Seehow = () => {
                         <p className='text-xl text-white font-medium '>An <span className='text-[#0976FF] underline'>independent research</span> shows how  form plugins load assets. Hint: The lower  the better.</p>
                     </div>
                     <div>
-                        <img className='  mt-5 rounded-l-lg shadow-2xl shadow-blue-500/50' src={image} alt="" />
+                        <img className='  mt-5 rounded-l-lg shadow-2xl shadow-blue-500/40' src={image} alt="" />
                          
                     </div>
                 </div>
