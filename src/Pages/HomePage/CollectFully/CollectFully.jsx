@@ -37,32 +37,16 @@ import phone2 from "../../../assets/image/phone-image-2.png"
                                     <img className="w-20 relative right-4" src={Icon3} alt="" />
                                     <img className="relative bg-main left-10 bottom-8    w-[70px] h-[70px] p-4 rounded-md" src={Icon5} alt="" />
                                     <img className="relative bg-main left-32 bottom-2    w-[70px] h-[70px] p-4 rounded-md" src={Icon6} alt="" />
-                                </div>
-                                 
-                                
+                                </div>   
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
-
-                 
-
-
                 {/* second section */}
                 <div>
                     <div className="w-[700px] h-[500px] bg-[#F4FBFF] ">
                         <div className="flex">
                             <div className="w-96 h-72">
-
-                                 
-                                 
-
-                                 
-
-
                                 <div className=" relative p-8 top-10">
                                     <h2 className="text-2xl text-black font-semibold">Fully mobile responsive</h2>
                                     <p className="text-lg text-gray-500 font-medium ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -80,11 +64,9 @@ import phone2 from "../../../assets/image/phone-image-2.png"
                                                 <span className="font-semibold text-[#666D7A]">Solutoins</span>
                                                 <input type="text" className="w-96 h-10 bg-[#ECECEC] border-solid border-2 border-gray-300 px-3" placeholder="Solutoins" />
                                             </div>
-                                        </div>
-                                        
+                                        </div> 
                                     </div>
-                                
-                                </div>
+                              </div>
 
                             </div>
 
@@ -119,7 +101,7 @@ import phone2 from "../../../assets/image/phone-image-2.png"
                                                         <div>
                                                             <input type="checkbox" className="w-6 h-6" />
                                                         </div>
-                                                        <div >
+                                                        <div>
                                                             <div className="w-40 h-4 bg-gray-300 rounded-3xl mt-1"></div>
                                                              
                                                         </div>

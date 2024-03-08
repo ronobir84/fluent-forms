@@ -1,5 +1,6 @@
  
 const Powerful = () => {
+     
     return (
         <div className="flex justify-between px-[105px] pt-10 items-center">
             <div className="space-y-3">
@@ -9,8 +10,10 @@ const Powerful = () => {
             <div>
                 <button className="bg-[#0976FF] text-xl px-8 py-3 font-semibold rounded text-white shadow">Get Fluent Forms</button>
             </div>
+
+            
         </div>
     );
 };
 
-export default Powerful;
+export default Powerful; 

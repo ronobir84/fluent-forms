@@ -1,6 +1,8 @@
 import groupImg from "../../../assets/image/Group.png"
- import PowerIcon from "../../../assets/image/PowerIcon.png"
+import PowerIcon from "../../../assets/image/PowerIcon.png"
+ 
 const PowerSection = () => {
+    
     return (
         <div>
             <div className="w-full h-[520px] bg-[#F4FBFF]">
