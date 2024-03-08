@@ -1,4 +1,5 @@
 import BuildForms from "../BuildForms/BuildForms";
+import Client from "../Client/Client";
 import CollectFully from "../CollectFully/CollectFully";
 import Connect from "../Connect/Connect";
 import Craft from "../Craft/Craft";
@@ -47,6 +48,9 @@ const Home = () => {
             </div>
             <div>
                 <PowerSection></PowerSection>
+            </div>
+            <div>
+                <Client></Client>
             </div>
         </div>
     );
