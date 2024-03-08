@@ -20,6 +20,4 @@ body {
     backdrop-filter: blur(4px); 
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06); 
 }
-.bg-blur{
-    filter: blur(1px);
-}
+ 
