@@ -3,7 +3,7 @@ import clientImg from "../../../assets/image/client.png"
 const Client = () => {
     return (
         <div>
-            <div className="w-full h-[400px] bg-[#00295A] bg-blur">
+            <div className="w-full h-[480px] bg-[#00295A] bg-blur">
                 <div>
                     <img className="w-32 relative left-10 bottom-20" src={groupImg} alt="" />
                 </div>
@@ -16,7 +16,7 @@ const Client = () => {
                 <div className="  w-1/3  text-center mx-auto space-y-4 relative bottom-6">
                     <div className="rating rating-sm">
                         <input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
-                        <input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400"  />
                         <input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
                         <input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />
                         <input type="radio" name="rating-6" className="mask mask-star-2 bg-orange-400" />

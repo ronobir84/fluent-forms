@@ -3,6 +3,7 @@ import Client from "../Client/Client";
 import CollectFully from "../CollectFully/CollectFully";
 import Connect from "../Connect/Connect";
 import Craft from "../Craft/Craft";
+import Frequently from "../Frequently/Frequently";
 import Fully from "../Fully/Fully";
 import HomeBanner from "../HomeBanner/HomeBanner";
 import NextLevel from "../NextLevel/NextLevel";
@@ -51,6 +52,9 @@ const Home = () => {
             </div>
             <div>
                 <Client></Client>
+            </div>
+            <div>
+                <Frequently></Frequently>
             </div>
         </div>
     );
