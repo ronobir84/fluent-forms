@@ -9,6 +9,7 @@ import HomeBanner from "../HomeBanner/HomeBanner";
 import NextLevel from "../NextLevel/NextLevel";
 import PowerSection from "../PowerSection/PowerSection";
 import Powerful from "../Powerful/Powerful";
+import PricingSection from "../PricingSection/PricingSection";
 import Seehow from "../Seehow/Seehow";
 import WatchSection from "../WatchSection/WatchSection";
 
@@ -55,6 +56,9 @@ const Home = () => {
             </div>
             <div>
                 <Frequently></Frequently>
+            </div>
+            <div>
+                <PricingSection></PricingSection>
             </div>
         </div>
     );

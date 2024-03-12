@@ -37,7 +37,7 @@ const Frequently = () => {
                 </div>
                 <div className="collapse collapse-plus bg-[#FFFFFF] border-solid border-2 border-[#EAEAEA] shadow p-3">
                     <input type="radio" name="my-accordion-3" />
-                    <div className="collapse-title text-2xl text-black font-medium">
+                    <div className="collapse-title text-2xl text-black font-medium ">
                        Will Fluent Forms affect the speed of my website??
                     </div>
                     <div className="collapse-content">
