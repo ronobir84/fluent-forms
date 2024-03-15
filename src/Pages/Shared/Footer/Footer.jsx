@@ -92,6 +92,58 @@ const Footer = () => {
                         <br />
                          
                      </div>
+                    <div> 
+                        <h1 className="text-2xl font-bold text-[#333]  relative top-3">integration</h1>
+
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-5 ">Zapier</a>
+                            <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-8">FluentCRM</a>
+                            <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-11">Slack</a>
+                            <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-14">BuddyBoss</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-16">WP Social Ninja</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-20">Discord</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-24">
+                            FluentSupport</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-28">
+                            ConvertKit</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-32">
+                            Salesforce</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-36">
+                            CampaignMonitor</a>
+                        <br />
+                         
+                     </div>
+                    <div> 
+                        <h1 className="text-2xl font-bold text-[#333]  relative top-3">OUR BRANDS</h1>
+
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-5 ">Zapier</a>
+                            <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-8">FluentCRM</a>
+                            <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-11">Fluent Support</a>
+                            <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-14">FluentSMTP</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-16">WP Social Ninja</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-20">Paymattic</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-24">
+                            FluentSupport</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-28">
+                            AzonPress</a>
+                         
+                         
+                     </div>
                 </div>
             </div>
             
