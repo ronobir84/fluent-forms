@@ -1,8 +1,9 @@
 import logo from "../../../assets/image/logo.png"
  import footerImg from "../../../assets/image/footer-1.png"
+import { Link } from "react-router-dom";
 const Footer = () => {
     return (
-        <div className='w-full h-[600px] bg-[#FFFFFF]'>
+        <div className='w-full h-[700px] bg-[#FFFFFF]'>
             <div className='w-[78%] h-52 bg-[#0976FF] mx-auto relative bottom-20 rounded-lg shadow-lg '>
                 <div className="flex  items-center px-24">
                     <div className="flex items-center gap-8">
@@ -28,11 +29,70 @@ const Footer = () => {
                         <div>
                             <button className="bg-[#FFFFFF] px-7 py-3 text-xl font-semibold text-[#0976FF] rounded-md shadow mt-2">Subscribe</button>
                         </div>
-
-
                     </div>
                 </div>
+            </div>
 
+            <div>
+                <div className="flex gap-10">
+                    <div>
+                        <Link>
+                            <div className="flex items-center gap-1">
+                                <img src={logo} alt="" />
+                                <h2 className="text-3xl "><span className="text-[#282828] font-bold">Fluent</span><span className="text-gray-500">Forms</span></h2>
+                            </div>
+                        </Link>
+                        <p className="w-52 text-[#001222] text-base pt-10">Fluent Forms is a lightweight and beginner-friendly tool to empower online businesses. You can consider it beyond a form builder.</p>
+                    </div>
+                    <div> 
+                            <h1 className="text-2xl font-bold text-[#333]  relative top-3">RESOURCE</h1>
+
+                            <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-5 ">Documentation</a>
+                            <br />
+                            <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-8">API Docs</a>
+                            <br />
+                            <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-11">Support</a>
+                            <br />
+                            <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-14">Brand Guideline</a>
+                    </div>
+                    <div> 
+                        <h1 className="text-2xl font-bold text-[#333]  relative top-3">ADDONS</h1>
+
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-5 ">Signature (Paid)</a>
+                            <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-8">PDF Generator</a>
+                            <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-11">Mautic</a>
+                            <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-14">Mailpoet</a>
+                    </div>
+                    <div> 
+                        <h1 className="text-2xl font-bold text-[#333]  relative top-3">Features</h1>
+
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-5 ">Drag & Drop Form Builder</a>
+                            <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-8">Pre-built Form Templates</a>
+                            <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-11">Conversational Forms</a>
+                            <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-14">Visual Data Reporting</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-16">User-generated Conten</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-20">Multi-step Forms</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-24">
+                            User-generated Content</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-28">
+                            Conditional Logic</a>
+                        <br />
+                        <a href="" className="text-xl text-black hover:translate-x-1 hover:scale-100 hover:border-b-2 hover:border-black transition-all duration-300 ease-in-out relative top-32">
+                            File & Image Upload</a>
+                        <br />
+                         
+                     </div>
+                </div>
             </div>
             
         </div>
