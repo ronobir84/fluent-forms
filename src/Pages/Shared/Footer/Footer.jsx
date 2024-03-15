@@ -1,9 +1,11 @@
 import logo from "../../../assets/image/logo.png"
  import footerImg from "../../../assets/image/footer-1.png"
 import { Link } from "react-router-dom";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+
 const Footer = () => {
     return (
-        <div className='w-full h-[700px] bg-[#FFFFFF]'>
+        <div className='w-full h-[800px] bg-[#FFFFFF]'>
             <div className='w-[78%] h-52 bg-[#0976FF] mx-auto relative bottom-20 rounded-lg shadow-lg '>
                 <div className="flex  items-center px-24">
                     <div className="flex items-center gap-8">
@@ -34,7 +36,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <div className="flex gap-10">
+                <div className="flex justify-between px-[200px]">
                     <div>
                         <Link>
                             <div className="flex items-center gap-1">
@@ -144,6 +146,25 @@ const Footer = () => {
                          
                          
                      </div>
+                </div>
+
+
+                <div>
+                    <div className="flex gap-4 relative  pl-[190px]">
+                        <Link><FaFacebook className="w-10 h-10 text-black"></FaFacebook></Link>
+                        <Link><FaInstagram className="w-10 h-10 text-black"></FaInstagram></Link>
+                        <Link><FaTwitter className="w-10 h-10 text-black"></FaTwitter></Link>
+                        <Link><FaLinkedin className="w-10 h-10 text-black"></FaLinkedin></Link>
+                        <Link><FaYoutube className="w-10 h-10 text-black"></FaYoutube></Link>
+                    </div>
+                </div>
+
+                <div className="flex gap-4 pt-36 justify-center">
+                    <h2 className="text-xl text-black ">Copyright © 2023 <span className="underline">Fluent Support</span>. A Brand of  <span className="underline">WPManageNinja</span>™</h2>
+                    <Link className="text-xl text-black underline">Affiliate </Link>
+                    <Link className="text-xl text-black underline">Terms </Link>
+                    <Link className="text-xl text-black underline">Privacy</Link>
+
                 </div>
             </div>
             
